@@ -1,9 +1,12 @@
-
+html{
+  scroll-behavior: smooth;
+}
 element.style {
   height: 100%;
 }
 body {
     background-color: #4d64ff;
+    overflow-x: hidden;
   }
 .navbar {
     display: flex;
@@ -34,4 +37,7 @@ body {
   margin: 10px;
   font-size: 20px;
 }
-  
+.testoSezione1 {
+  margin-bottom: 150px;
+  margin-left: 50px;
+} 
